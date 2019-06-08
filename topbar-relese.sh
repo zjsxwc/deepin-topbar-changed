@@ -2,6 +2,7 @@
 set -e
 echo "安装编译环境......"
 sudo apt install -y debhelper  pkg-config  dpkg-dev  qttools5-dev-tools  expect  cmake  qt5-default  qtbase5-dev  libdtkwidget-dev  libdtkwidget-dev  libdtkcore-dev  libdtkcore-bin  libxcb-ewmh-dev  libxcb-util0-dev  libdframeworkdbus-dev  libgsettings-qt-dev  libxcb-image0-dev  libxcb-icccm4-dev  libxcb-composite0-dev  libqt5svg5-dev  libxtst-dev  libgsettings-qt-dev  libdbusmenu-qt5-dev  libdde-network-utils-dev libprocps-dev
+sudo apt install -y qtbase5-private-dev
 echo "获取最新版本并编译......"
 deskpath=~/Desktop
 gitpath=~/Desktop/deepin-topbar
