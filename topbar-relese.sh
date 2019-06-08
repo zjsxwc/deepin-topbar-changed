@@ -43,7 +43,7 @@ cp deepin-topbar.svg deepin-logo.svg $debpath/usr/share/icons/hicolor/scalable/a
 cp deepin-topbar.desktop $debpath/usr/share/applications/
 cp $gitpath/build/src/deepin-topbar $debpath/usr/bin/
 echo Package: deepin-topbar >> $debpath/DEBIAN/control
-echo Version: 0.6.3 >> $debpath/DEBIAN/control
+echo Version: 1.0.0 >> $debpath/DEBIAN/control
 echo Architecture: amd64 >> $debpath/DEBIAN/control
 echo Maintainer: kirigaya-kirigaya@mkacg.com  >> $debpath/DEBIAN/control
 echo Installed-Size: 1492 >> $debpath/DEBIAN/control
