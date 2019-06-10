@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="deepin-topbar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\frame\;CMake Files\src\widgets\;CMake Files\src\modules\;CMake Files\src\modules\indicator\;CMake Files\src\modules\network\;CMake Files\src\modules\power\;CMake Files\src\modules\sound\;CMake Files\src\modules\sound\resources\;CMake Files\src\modules\system-tray\;CMake Files\src\modules\systeminfo\;CMake Files\src\modules\systeminfo\resources\;CMake Files\src\modules\notify\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkWidget\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Dtk\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkCore\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deepin-topbar">
+				<Option output="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/src"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1/QtCore"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/usr/include/libddenetworkutils"/>
+					<Add directory="/usr/include/dbusmenu-qt5"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtX11Extras"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtConcurrent"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 deepin-topbar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deepin-topbar/fast">
+				<Option output="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_SVG_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_DBUS_LIB"/>
+					<Add option="-DQT_X11EXTRAS_LIB"/>
+					<Add option="-DQT_CONCURRENT_LIB"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/src"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/include"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore"/>
+					<Add directory="/usr/include/libdtk-2.0.13/DCore/../DWidget"/>
+					<Add directory="/usr/include/libdframeworkdbus-2.0"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui/5.7.1/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore/5.7.1/QtCore"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QGSettings"/>
+					<Add directory="/usr/include/libddenetworkutils"/>
+					<Add directory="/usr/include/dbusmenu-qt5"/>
+					<Add directory="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtDBus"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtSvg"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtX11Extras"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtConcurrent"/>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/6/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 deepin-topbar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="deepin-topbar_autogen">
+				<Option working_dir="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 deepin-topbar_autogen"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/ADJSAI3O2X/qrc_power.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/ADJSAI3O2X/qrc_power.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/AKJQ4VEN6T/qrc_systeminfo.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/AKJQ4VEN6T/qrc_systeminfo.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/AL7PKB2N5X/qrc_indicator.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/AL7PKB2N5X/qrc_indicator.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/IMAN36LHMA/qrc_widgets.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/IMAN36LHMA/qrc_widgets.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/INRFZOOR6C/qrc_sound.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/INRFZOOR6C/qrc_sound.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/KCBAJ2ALGZ/qrc_network.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/KCBAJ2ALGZ/qrc_network.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/NJXTHP4PFZ/qrc_notify.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/NJXTHP4PFZ/qrc_notify.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/UL3JJD3NW6/qrc_deepin-topbar.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/UL3JJD3NW6/qrc_deepin-topbar.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/WGORZNK3AR/qrc_system-tray.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/WGORZNK3AR/qrc_system-tray.cpp.rule">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/deepin-topbar_autogen/mocs_compilation.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/com_deepin_dde_wallpaper.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/com_deepin_dde_wallpaper.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusaccount.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusaccount.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusaudio.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusaudio.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusinterface.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusinterface.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusmediaplayer2.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbusmediaplayer2.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbussink.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbussink.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbussinkinput.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/dbus/dbussinkinput.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/dbusservice.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/dbusservice.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/deepin-topbar.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/contentmodule.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/contentmodule.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/item.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/item.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/pluginsitem.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/pluginsitem.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/stretchitem.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/item/stretchitem.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/main.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/mainframe.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/mainframe.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/mainpanel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/mainpanel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/settings.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/settings.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/utils/global.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/utils/global.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/utils/themeappicon.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/utils/themeappicon.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/interfaces/moduleiteminterface.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/interfaces/pluginproxyinterface.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/interfaces/pluginsiteminterface.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/account/accountplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/account/accountplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/account/accountwidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/account/accountwidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/appstoreaction.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/appstoreaction.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/entry.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/entry.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/indicatorwidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/indicatorwidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/positionwidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/positionwidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/systemlogo.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/View/systemlogo.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicator.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicatormodel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicatormodel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicatorplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicatorplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicatorworker.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicatorworker.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/item/applet/accesspoint.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/item/applet/accesspoint.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/item/applet/refreshaction.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/item/applet/refreshaction.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/network.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networkcontrolpanel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networkcontrolpanel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networkdelegate.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networkdelegate.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networklistmodel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networklistmodel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networklistview.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networklistview.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networkplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/networkplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notify.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifydelegate.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifydelegate.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifymodel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifymodel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifyplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifyplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifyview.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifyview.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifywidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notifywidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/power.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/powerplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/powerplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/powerwidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/powerwidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/powerwidgetaction.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/powerwidgetaction.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/search/searchbutton.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/search/searchbutton.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/search/searchmodule.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/search/searchmodule.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/componments/horizontalseparator.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/componments/horizontalseparator.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/componments/mediacontrol.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/componments/mediacontrol.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/componments/volumeslider.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/componments/volumeslider.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/resources/sound.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/sinkinputwidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/sinkinputwidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/soundapplet.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/soundapplet.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/sounditem.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/sounditem.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/soundplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/soundplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/abstracttraywidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/abstracttraywidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/dbustraymanager.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/dbustraymanager.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/dbusstructures.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/dbusstructures.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/statusnotifieritem_interface.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/statusnotifieritem_interface.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/statusnotifierwatcheradapter.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/statusnotifierwatcheradapter.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/sni/statusnotifierwatcher.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/sni/statusnotifierwatcher.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/snitraywidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/snitraywidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/system-tray.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/systemtrayplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/systemtrayplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/tipswidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/tipswidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/traypanel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/traypanel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/xwindowtraywidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/xwindowtraywidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/DBus/org_freedesktop_networkmanager.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/DBus/org_freedesktop_networkmanager.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/DBus/org_freedesktop_networkmanager_activeconnection.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/DBus/org_freedesktop_networkmanager_activeconnection.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/DBus/org_freedesktop_networkmanager_device.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/DBus/org_freedesktop_networkmanager_device.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/resources/systeminfo.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfomodel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfomodel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfoplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfoplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfopopupwidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfopopupwidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfothread.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfothread.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfowidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/systeminfowidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/timewidget/datetimeplugin.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/timewidget/datetimeplugin.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/timewidget/datetimewidget.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/timewidget/datetimewidget.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/dactionbutton.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/dactionbutton.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/dactionlabel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/dactionlabel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/dwidgetaction.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/dwidgetaction.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/fontlabel.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/fontlabel.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/itempopupwindow.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/itempopupwindow.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/switchbutton.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/switchbutton.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/switchitem.cpp">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/switchitem.h">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/widgets.qrc">
+			<Option target="deepin-topbar"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/frame/deepin-topbar.qrc">
+			<Option virtualFolder="CMake Files\src\frame\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/widgets/widgets.qrc">
+			<Option virtualFolder="CMake Files\src\widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/indicator/indicator.qrc">
+			<Option virtualFolder="CMake Files\src\modules\indicator\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/network/network.qrc">
+			<Option virtualFolder="CMake Files\src\modules\network\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/power/power.qrc">
+			<Option virtualFolder="CMake Files\src\modules\power\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/sound/resources/sound.qrc">
+			<Option virtualFolder="CMake Files\src\modules\sound\resources\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/system-tray.qrc">
+			<Option virtualFolder="CMake Files\src\modules\system-tray\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/systeminfo/resources/systeminfo.qrc">
+			<Option virtualFolder="CMake Files\src\modules\systeminfo\resources\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/src/modules/notify/notify.qrc">
+			<Option virtualFolder="CMake Files\src\modules\notify\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/DtkWidget/DtkWidgetConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkWidget\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Dtk/DtkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Dtk\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/DtkCore/DtkCoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\DtkCore\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5DBus/Qt5DBusMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5DBus\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5SvgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5SvgConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5Svg_QSvgIconPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Svg/Qt5Svg_QSvgPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Svg\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5X11Extras/Qt5X11ExtrasConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5X11Extras\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+		<Unit filename="/home/wangchao/Desktop/deepin-topbar/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

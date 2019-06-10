@@ -1,0 +1,14 @@
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/CMakeFiles/install.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/CMakeFiles/install/local.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/install/strip.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/install.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/list_install_components.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/install/local.dir
+/home/wangchao/Desktop/deepin-topbar/cmake-build-debug/src/CMakeFiles/deepin-topbar_autogen.dir

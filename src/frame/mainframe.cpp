@@ -90,6 +90,7 @@ void MainFrame::init()
     m_defaultBgColor.setAlpha(maskAlpha());
 
     m_mainPanel = new dtb::MainPanel(this);
+    QTimer::singleShot(10000, m_mainPanel, &dtb::MainPanel::reload);
 
 //    m_showWithLauncher =new QPropertyAnimation(m_mainPanel, "pos", m_mainPanel);
 //    m_showWithLauncher->setDuration(300);

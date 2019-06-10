@@ -28,7 +28,7 @@ public:
     void hidePopupWindow() Q_DECL_OVERRIDE;
     void showSettingDialog();
 
-private slots:
+public slots:
     void loadModules();
     void loadModule(PluginsItemInterface * const module);
     void reload();
