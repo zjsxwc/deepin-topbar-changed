@@ -62,6 +62,8 @@ MainFrame::MainFrame(QWidget *parent)
         onWindowListChanged();
     });
 #endif
+
+    QTimer::singleShot(10000, m_mainPanel, &dtb::MainPanel::reload);
 }
 
 MainFrame::~MainFrame()
@@ -88,7 +90,6 @@ void MainFrame::init()
     setMaskColor(DBlurEffectWidget::DarkColor);
 
     m_defaultBgColor.setAlpha(maskAlpha());
-
     m_mainPanel = new dtb::MainPanel(this);
 
 //    m_showWithLauncher =new QPropertyAnimation(m_mainPanel, "pos", m_mainPanel);

@@ -15,11 +15,7 @@
     <list default="true" id="433ae867-0203-45fd-92d9-82d78561565c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/src/CMakeFiles/deepin-topbar.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frame/mainframe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/mainframe.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frame/mainpanel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/frame/mainpanel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +30,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/frame/mainframe.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="92" column="68" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="68" />
+            <state relative-caret-position="207">
+              <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -58,16 +54,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/frame/mainpanel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="144" column="34" lean-forward="true" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
+            <state relative-caret-position="2160">
+              <caret line="144" column="34" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="2190">
               <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -122,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/frame/mainpanel.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="465">
               <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
             </state>
           </provider>
@@ -147,17 +143,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/frame/main.cpp" />
         <option value="$PROJECT_DIR$/src/frame/mainpanel.h" />
-        <option value="$PROJECT_DIR$/src/frame/mainframe.cpp" />
         <option value="$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.h" />
         <option value="$PROJECT_DIR$/src/frame/mainpanel.cpp" />
         <option value="$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.cpp" />
+        <option value="$PROJECT_DIR$/src/frame/mainframe.cpp" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
-    <option name="y" value="67" />
+    <option name="x" value="170" />
+    <option name="y" value="84" />
     <option name="width" value="1629" />
     <option name="height" value="971" />
   </component>
@@ -255,18 +251,20 @@
       <workItem from="1560128988930" duration="390000" />
       <workItem from="1560131493536" duration="1297000" />
       <workItem from="1560132945697" duration="864000" />
+      <workItem from="1560135028392" duration="242000" />
+      <workItem from="1560135341818" duration="31000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3939000" />
+    <option name="totallyTimeSpent" value="4212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="67" width="1629" height="971" extended-state="0" />
+    <frame x="170" y="84" width="1629" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6097561" visible="true" weight="0.2555205" />
-      <window_info id="Structure" order="1" sideWeight="0.3902439" side_tool="true" visible="true" weight="0.2555205" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6053215" visible="true" weight="0.26182964" />
+      <window_info id="Structure" order="1" sideWeight="0.3946785" side_tool="true" visible="true" weight="0.26182964" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
@@ -334,8 +332,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/mainframe.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="68" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="68" />
+        <state relative-caret-position="207">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -346,6 +344,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
           <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frame/mainpanel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="144" column="34" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2190">
+          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -384,25 +399,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frame/mainpanel.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="465">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frame/mainpanel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="144" column="34" lean-forward="true" selection-start-line="144" selection-start-column="34" selection-end-line="144" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/system-tray/systemtrayplugin.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="146" column="8" selection-start-line="146" selection-start-column="8" selection-end-line="146" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
