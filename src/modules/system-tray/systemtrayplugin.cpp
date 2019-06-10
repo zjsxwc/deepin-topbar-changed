@@ -208,10 +208,14 @@ void SystemTrayPlugin::sniItemsChanged()
         sinTrayKeyList << SNITrayWidget::toSNIKey(item);
     }
 
+//    for (auto itemKey : m_trayList.keys()) {
+//        if (!sinTrayKeyList.contains(itemKey) && SNITrayWidget::isSNIKey(itemKey)) {
+//            trayRemoved(itemKey);
+//        }
+//    }
+
     for (auto itemKey : m_trayList.keys()) {
-        if (!sinTrayKeyList.contains(itemKey) && SNITrayWidget::isSNIKey(itemKey)) {
-            trayRemoved(itemKey);
-        }
+        trayRemoved(itemKey);
     }
 
     for (auto tray : sinTrayKeyList) {
