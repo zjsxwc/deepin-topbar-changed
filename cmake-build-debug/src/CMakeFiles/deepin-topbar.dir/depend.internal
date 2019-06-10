@@ -12629,8 +12629,12 @@ src/CMakeFiles/deepin-topbar.dir/modules/system-tray/snitraywidget.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 src/CMakeFiles/deepin-topbar.dir/modules/system-tray/systemtrayplugin.cpp.o
  ../src/frame/item/contentmodule.h
+ ../src/frame/item/item.h
+ ../src/frame/item/pluginsitem.h
+ ../src/frame/mainpanel.h
  ../src/interfaces/pluginproxyinterface.h
  ../src/interfaces/pluginsiteminterface.h
+ ../src/widgets/itempopupwindow.h
  /home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/abstracttraywidget.h
  /home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/dbustraymanager.h
  /home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/dbus/sni/dbusstructures.h
@@ -12641,12 +12645,28 @@ src/CMakeFiles/deepin-topbar.dir/modules/system-tray/systemtrayplugin.cpp.o
  /home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/systemtrayplugin.h
  /home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/tipswidget.h
  /home/wangchao/Desktop/deepin-topbar/src/modules/system-tray/xwindowtraywidget.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/darrowrectangle.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/dblureffectwidget.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/dgraphicsgloweffect.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/dregionmonitor.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/dthememanager.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_config.h
+ /usr/include/libdtk-2.0.13/DCore/../DWidget/dtkwidget_global.h
+ /usr/include/libdtk-2.0.13/DCore/DObject
+ /usr/include/libdtk-2.0.13/DCore/dobject.h
+ /usr/include/libdtk-2.0.13/DCore/dtkcore_config.h
+ /usr/include/libdtk-2.0.13/DCore/dtkcore_global.h
+ /usr/include/x86_64-linux-gnu/qt5/QGSettings/QGSettings
+ /usr/include/x86_64-linux-gnu/qt5/QGSettings/qgsettings.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QGlobalStatic
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QMargins
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QMetaMethod
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QScopedPointer
@@ -12856,29 +12876,40 @@ src/CMakeFiles/deepin-topbar.dir/modules/system-tray/systemtrayplugin.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtDBus/qdbusvirtualobject.h
  /usr/include/x86_64-linux-gnu/qt5/QtDBus/qtdbusversion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QIcon
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QPainter
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/QTextLine
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QWindow
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontdatabase.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qglyphrun.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrawfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
@@ -12886,14 +12917,21 @@ src/CMakeFiles/deepin-topbar.dir/modules/system-tray/systemtrayplugin.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QBoxLayout
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDesktopWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsDropShadowEffect
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsEffect
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicseffect.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h

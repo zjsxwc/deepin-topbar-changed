@@ -142,7 +142,7 @@ void MainPanel::loadModules()
 
     loadModule(new systeminfo::SystemInfoPlugin);
 
-    loadModule(new systemtray::SystemTrayPlugin);
+    loadModule(new systemtray::SystemTrayPlugin(this));
 
     loadModule(new sound::SoundPlugin);
 

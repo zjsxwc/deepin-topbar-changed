@@ -7,6 +7,7 @@
 #include <QX11Info>
 
 #include <xcb/xcb_icccm.h>
+#include <frame/mainpanel.h>
 
 #define SNI_WATCHER_SERVICE "org.kde.StatusNotifierWatcher"
 #define SNI_WATCHER_PATH "/StatusNotifierWatcher"
@@ -136,12 +137,18 @@ void SystemTrayPlugin::trayListChanged()
         trayList << XWindowTrayWidget::toTrayWidgetId(winid);
     }
 
+//    for (auto tray : m_trayList.keys())
+//        if (!trayList.contains(tray) && XWindowTrayWidget::isWinIdKey(tray))
+//            trayRemoved(tray);
+
     for (auto tray : m_trayList.keys())
-        if (!trayList.contains(tray) && XWindowTrayWidget::isWinIdKey(tray))
-            trayRemoved(tray);
+        trayRemoved(tray);
 
     for (auto tray : trayList)
         trayAdded(tray);
+
+//    MainPanel* mainPanel = (MainPanel *)parent();
+//    QTimer::singleShot(1000, mainPanel, &MainPanel::reload);
 }
 
 void SystemTrayPlugin::trayAdded(const QString &itemKey)
